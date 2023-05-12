@@ -1,7 +1,7 @@
 .depoimento {
     display: grid;
-    grid-template-columns: 1fr, 1fr;
-    border-color: var(--cor-p1);
+    grid-template-columns: repeat(2, 1fr);
+    background-color: var(--cor-p1);
     overflow: hidden;
 }
 .depoimento img {
